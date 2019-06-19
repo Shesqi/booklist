@@ -1,51 +1,72 @@
 [
   {
     "id": "1",
-    "book": "book_name",
-    "author": "Донцова",
-    "genre": "Детективы",
+    "book": "Фальшивые намерения",
+    "author": "Нокс Рональд",
+    "genre": "Зарубежные детективы",
     "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "2",
-    "book": "book_name2",
-    "author": "Валентин Пикуль",
-    "genre": "История"
+    "book": "Кто нашел, берет себе",
+    "author":"Стивен Кинг",
+    "genre": "Зарубежные детективы",
+    "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "3",
-    "book": "book_name3",
-    "author": "Пушкин",
-    "genre": "Поэзия"
+    "book": "В списках не значился",
+    "author": "Васильев Борис Львович",
+    "genre": "Классическая литература",
+    "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "4",
-    "book": "book_name4",
-    "author": "Василий Ключевский",
-    "genre": "Романы"
+    "book": "Владения Хаоса (Двор Хаоса)",
+    "author": "Желязны Роджер Джозеф",
+    "genre": "Фэнтези",
+    "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "5",
-    "book": "book_name5",
-    "author": "Николай Карамзин",
-    "genre": "Романы"
+    "book": "Гарри Поттер и Кубок огня",
+    "author": "Роулинг Джоан Кэтлин",
+    "genre": "Зарубежное фэнтези",
+    "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "6",
-    "book": "book_name6",
-    "author": "Николай Карамзин",
-    "genre": "История"
+    "book": "Самая легкая лодка в мире",
+    "author": "Юрий Коваль",
+    "genre": "Детская проза",
+    "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "7",
-    "book": "book_name7",
-    "author": "Василий Ключевский",
-    "genre": "История"
+    "book": "Три мушкетера",
+    "author": "Дюма Александр",
+    "genre": "Исторические приключения",
+    "cover": "https://via.placeholder.com/250?text="
   },
   {
     "id": "8",
-    "book": "book_name8",
-    "author": "Василий Ключевский",
-    "genre": "История"
+    "book": "Белый Клык",
+    "author": "Лондон Джек",
+    "genre": "Зарубежная классика",
+    "cover": "https://via.placeholder.com/250?text="
+  },
+  {
+    "id": "9",
+    "book": "Приключения Шерлока Холмса",
+    "author": "Конан Дойл Артур",
+    "genre": "Классические детективы",
+    "cover": "https://via.placeholder.com/250?text="
+  },
+  {
+    "id": "10",
+    "book": "Властелин колец",
+    "author": "Толкин Джон Рональд Руэл",
+    "genre": "Зарубежное фэнтези",
+    "cover": "https://via.placeholder.com/250?text="
   }
 ]

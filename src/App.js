@@ -5,23 +5,27 @@ export class App extends React.Component {
     constructor(props) {
         super(props);
 
-        let genreList = [];
-        let authorList = [];
+        let genres = [],
+            authors = [];
 
         for (let k in this.props.books) {
-            if (genreList.indexOf(this.props.books[k].genre) === -1) {
-                genreList.push(this.props.books[k].genre);
+            if (genres.indexOf(this.props.books[k].genre) === -1) {
+                genres.push(this.props.books[k].genre);
             }
         }
 
         for (let k in this.props.books) {
-            if (authorList.indexOf(this.props.books[k].author) === -1) {
-                authorList.push(this.props.books[k].author);
+            if (authors.indexOf(this.props.books[k].author) === -1) {
+                authors.push(this.props.books[k].author);
             }
         }
 
-        console.log(genreList);
-        console.log(authorList);
+        this.state = {
+            data: {genre: genres, author: authors}
+        };
+
+        console.log(genres);
+        console.log(authors);
     }
 
 
@@ -38,7 +42,8 @@ export class App extends React.Component {
             <div className="App">
                 <h1>Booklist App!</h1>
                 <h3>
-
+                    {this.state.data.genre}
+                    {this.state.data.author}
                 </h3>
             </div>
         )
