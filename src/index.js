@@ -5,4 +5,4 @@ import {App} from './App';
 
 const mockBookData = require('./data');
 
-ReactDOM.render(<App books={mockBookData}/>, document.getElementById('root'));
+ReactDOM.render(<App data={mockBookData}/>, document.getElementById('root'));

@@ -2,3 +2,17 @@ body {
     background: darkcyan;
     color: #ffffff;
 }
+
+.App {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-left: 1px white dashed;
+    border-right: 1px white dashed;
+}
+
+.options-select {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
