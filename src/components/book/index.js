@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Book extends React.Component {
+export class Index extends React.Component {
     render() {
         return (
             <div>
